@@ -31,7 +31,7 @@ img, video {
 /* Style rule for header */
 header {
     top: 0;
-    background-color: #000;
+    background-color: #781114;
     height: 190px;
 }
 
@@ -64,11 +64,12 @@ header img {
 
 .tablet-desktop, #menu-links {
     display: none;
+    background-color: #781114;
 }
 
 /* Style rules for main content */
 main {
-    background-color: #fff;
+    background-color: #157811;
     padding: 2%;
     font-size: 1.15em;
     font-family: 'Roboto Slab', serif;
@@ -220,6 +221,10 @@ footer p {
     padding: 0 1em;
 }
 
+footer {
+    background-color: #781114;
+}
+
 footer p a {
     color: #fff;
     text-decoration: none;
@@ -231,6 +236,8 @@ footer p a {
     /* Tablet Viewport: Show tablet-desktop class, hide mobile class */
     .tablet-desktop {
         display: block;
+        background-color: #781114;
+        color: #ffffff;
     }
 
     .mobile, .mobile-nav {
@@ -240,6 +247,7 @@ footer p a {
     /* Tablet Viewport: Style rule for header */
     header {
         padding-bottom: 2%;
+        background-color: #781114;
     }
     
     /* Tablet Viewport: Style rules for nav area */
