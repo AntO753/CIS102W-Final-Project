@@ -6,7 +6,9 @@
 	<meta charset="utf-8">
     <link rel="stylesheet" href="css/styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Francois+One|Roboto+Slab&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 	<link rel="shortcut icon" href="images/favicon.ico">
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
     <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
@@ -17,22 +19,21 @@
 	<div id="container">
 		
 		<!-- Mobile Nav -->
-		<nav class="mobile-nav">
-			<div id="menu-links">
-				<a href="index.html">Home</a> 
-				<a href="about.html">About Us</a>
-				<a href="classes.html">Classes</a> 
-				<a href="nutrition.html">Nutrition</a>
-				<a href="contact.html">Contact Us</a>
-			</div>
-			<a class="menu-icon" onclick="hamburger()">
-				<div>&#9776;</div>
-			</a> 
-		</nav>
+        <nav class="mobile-nav">
+            <div id="menu-links">
+                <a href="index.html">Home</a> 
+                <a href="about.html">About Us</a>
+                <a href="consultation.html">Consultations</a> 
+                <a href="contact.html">Contact Us</a>
+            </div>
+            <a class="menu-icon" onclick="hamburger()">
+                <div>&#9776;</div>
+            </a> 
+        </nav>
 
 		<!-- Use the header area for the website name or logo -->
 		<header id="ffc-logo">
-			<a href="index.html"><img src="images/forward-fitness-logo.png" alt="Forward Fitness Club logo" height="220" width="297"></a>
+			<a href="index.html"><img src="images/ezzzmunielogo.png" alt="Ezzz Munie logo"></a>
 		</header>
 		
 		<!-- Tablet, Desktop Nav -->
@@ -41,7 +42,6 @@
                 <li><a href="index.html">Home</a></li> 
                 <li><a href="about.html">About Us</a></li> 
                 <li><a href="consultation.html">Consultations</a></li> 
-                <li><a href="nutrition.html">Nutrition</a></li> 
                 <li><a href="contact.html">Contact Us</a></li>
             </ul>
 		</nav>
@@ -49,16 +49,16 @@
 		<!-- Use the main area to add the main content of the webpage -->
 		<main>
 		
-			<div id="contact">
+			<div id="contact" style="background-color: #781114; padding: 5px; color: #ffffff;">
 			
 				<h2>Ready to get started? Contact us today.</h2> 					
-                <h4 class="mobile tel-link"><a href="tel:8145559608">(814) 555-9608</a></h4>
-                <h4 class="tablet-desktop tel-num">(814) 555-9608</h4>
-				<h4>Email us: <a href="mailto:forwardfitness@club.net" class="contact-email-link">forwardfitness@club.net</a></h4>
+                <h4 class="mobile tel-link"><a href="tel:8000000000">(800)-000-0000</a></h4>
+                <h4 class="tablet-desktop tel-num">(800)-000-0000</h4>
+				<h4>Email us: <a href="mailto:ezzzmunie@gmail.com" class="contact-email-link">ezzzmunie@gmail.com</a></h4>
 				<h3 class="offer" onclick="discount()" id="special">View Promo Code</h3>
-				<h4>Visit us at: 1275 Channel Center Street, Boston, MA 02210</h4>
+				<h4>Visit us at: 862 Bedford Road, Pleasantville, NY, 10570</h4>
 				
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2948.8517572084897!2d-71.05362748503984!3d42.34568384400281!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e37a7dc2b67e7b%3A0x36ec93427cd9c5f1!2sChannel+Center+St%2C+Boston%2C+MA+02210!5e0!3m2!1sen!2sus!4v1558137213400!5m2!1sen!2sus" width="600" height="450" allowfullscreen class="map"></iframe>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3005.456579955306!2d-73.8089658241557!3d41.12455777133447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2bf07e13fb747%3A0x73d75ab9b5ab826c!2s862%20Bedford%20Rd%2C%20Pleasantville%2C%20NY%2010570!5e0!3m2!1sen!2sus!4v1701145156749!5m2!1sen!2sus" width="600" height="450" allowfullscreen class="map"></iframe>
 			
 			</div>
 
@@ -87,11 +87,11 @@
 						<legend>Additional Information</legend>
 						<p>I would like more information about:</p> 
 
-						<label for="grpfit"><input type="checkbox" name="interest" id="grpfit" value="Group Fitness">Group Fitness</label>
+						<label for="grpfit"><input type="checkbox" name="interest" id="grpfit" value="Consultation">Consultation</label>
 
-						<label for="prtrain"><input type="checkbox" name="interest" id="prtrain" value="Personal Training">Personal Training</label>
+						<label for="prtrain"><input type="checkbox" name="interest" id="prtrain" value="Call Center">Call Center</label>
 
-						<label for="nutr"><input type="checkbox" name="interest" id="nutr" value="Nutrition">Nutrition</label>
+						<label for="nutr"><input type="checkbox" name="interest" id="nutr" value="Facilities">Facilities</label>
 					</fieldset>
 
 					<fieldset>

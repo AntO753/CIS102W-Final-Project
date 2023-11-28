@@ -42,9 +42,10 @@ header img {
 /* Style rules for hamburger menu */
 .mobile-nav a {
     color: #fff;
-    font-family: 'Francois One', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
     text-align: center;
+    font-weight: bold;
     text-decoration: none; 
     padding: 3%;
     display: block;
@@ -72,7 +73,7 @@ main {
     background-color: #157811;
     padding: 2%;
     font-size: 1.15em;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Montserrat', serif;
 }
 
 video {
@@ -104,7 +105,7 @@ article:nth-of-type(2){
 }
 
 .tel-link {
-    background-color: #404040;
+    background-color: #781114;
     padding: 2%;
     margin: 0 auto;
     width: 80%;
@@ -149,7 +150,7 @@ article:nth-of-type(2){
     font-weight: bold;
 }
 
-#weights, #cardio, #training {
+#weights, #cardio {
     margin: 0 2%;
 }
 
@@ -158,7 +159,7 @@ article:nth-of-type(2){
 }
 
 .external-link {
-    color: #666600;
+    color: #ffffff;
     font-weight: bold;
     text-decoration: none;
 }
@@ -168,7 +169,7 @@ article:nth-of-type(2){
 }
 
 #contact .contact-email-link {
-    color: #666600;
+    color: #ffffff;
     text-decoration: none;
 }
 
@@ -180,8 +181,9 @@ article:nth-of-type(2){
 
 #form {
     margin-top: 2%;
-    background-color: #f2f2f2;
+    background-color: #781114;
     padding: 2%;
+    color: #ffffff;
 }
 
 #form h2 {
@@ -208,9 +210,11 @@ form #submit {
     border: none;
     display: block;
     padding: 2%;
-    background-color: #b3b3b3;
+    background-color: #380f10;
     font-size: 1em;
     border-radius: 10px;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* Style rules for footer content */
@@ -223,6 +227,7 @@ footer p {
 
 footer {
     background-color: #781114;
+    font-family: 'Montserrat', sans-serif;
 }
 
 footer p a {
@@ -263,9 +268,10 @@ footer p a {
 
     nav li {
         font-size: 1.5em;
-        font-family: 'Francois One', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         display: inline-block;
         border-right: 1px solid #fff;
+        font-weight: bolder;
     }
     
     nav li:last-child {
@@ -314,8 +320,8 @@ footer p a {
     #exercises {
         border-top: 1px solid #000;
         border-bottom: 1px solid #000;
-        background: linear-gradient(to right, #ccc, #fff);
-        background-color: #f2f2f2;
+        background: linear-gradient(to right, #781114, #157811);
+        background-color: #781114;
         padding: 1% 2%;
     }
 
@@ -371,7 +377,7 @@ footer p a {
     }
 
     tr:nth-child(odd) {
-        background-color: #ccc;
+        background-color: #380f10;
     }
 
     /*Tablet Viewport: Style rule for form element */
@@ -466,7 +472,7 @@ footer p a {
         transform: translateY(10px);
     }
 
-    #weights, #cardio, #training {
+    #weights, #cardio {
         width: 29%;
         float: left;
         margin: 0 2%;

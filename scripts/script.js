@@ -22,26 +22,18 @@ function hamburger() {
     }
 }
 
-//Function to display the burpees example video
+//Function to display the required papers video
 function burpees() {
-    videoSource.src = "media/burpees.mp4"; 
-    descriptionSource.src = "media/burpees-descriptions.vtt";
+    videoSource.src = "media/papers.mp4"; 
+    descriptionSource.src = "media/papers-descriptions.vtt";
     video.style.display = "block";
     video.load();
 }
 
-//Function to display the plank example video
-function plank() {
-    videoSource.src = "media/plank.mp4"; 
-    descriptionSource.src = "media/plankdescriptions.vtt";
-    video.style.display = "block";
-    video.load();
-}
-
-//Function to display the mountain climbers example video
+//Function to display the professional speaking example video
 function mountain() {
-    videoSource.src = "media/mc.mp4"; 
-    descriptionSource.src = "media/mountain-descriptions.vtt";
+    videoSource.src = "media/professional.mp4"; 
+    descriptionSource.src = "media/professional-descriptions.vtt";
     video.style.display = "block";
     video.load();
 }
@@ -49,7 +41,7 @@ function mountain() {
 //Function to display a promo code
 function discount() {
     var promo = document.getElementById("special"); 
-    promo.firstChild.nodeValue = "Promo Code: D25START";
-    promo.style.color = "#ff0000";
+    promo.firstChild.nodeValue = "Promo Code: 15OFF";
+    promo.style.color = "#ffffff";
     promo.style.fontSize = "2em"; 
 }
