@@ -21,9 +21,37 @@ img, video {
     display: block;
 }
 
+#soc {
+    text-align: center;
+    align-items: center;
+}
+
+#soc img {
+    display: inline-block;
+    padding: 1%;
+}
+
 /* Style rule for box sizing applies to all elements*/
 *{
     box-sizing: border-box; 
+}
+
+/* Style rules for skip navigation link */ 
+.skip {
+    position: absolute; 
+    left: -999px;
+}
+
+.skip:focus {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    background-color: #000000;
+    text-decoration: none; 
+    padding: 0.5%;
+    top: auto;
+    left: auto;
+    right: 1px; 
+    z-index: 1; 
 }
 
 /* Style rules for mobile viewport */
