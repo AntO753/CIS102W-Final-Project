@@ -41,7 +41,7 @@ function mountain() {
 //Function to display a promo code
 function discount() {
     var promo = document.getElementById("special"); 
-    promo.firstChild.nodeValue = "Promo Code: 15OFF";
+    promo.firstChild.nodeValue = "Promo Code: 15%OFF";
     promo.style.color = "#ffffff";
     promo.style.fontSize = "2em"; 
 }
